@@ -7,6 +7,8 @@ body {
   background: -webkit-gradient(linear, left top, right top, from(#ffa751), to(#ffe259));
   background: linear-gradient(to right, #ffa751, #ffe259);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-position: center;
 }
 
 div#container {

@@ -7,6 +7,5 @@ function getlotto(min, max) {
 for(var i = 0; i < 6;i++){
   var numery = getlotto(1,49)
   document.getElementById('container').innerHTML += '<div class="result">' + (numery) + '</div>';
-
 }
 
