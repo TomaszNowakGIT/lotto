@@ -53,6 +53,7 @@ div#container {
           justify-content: center;
   font-family: 'Anton', sans-serif;
   font-size: 35px;
+  margin: 5px;
 }
 
 .result:after {
