@@ -13,11 +13,12 @@ div#container {
     justify-content: center;
     display: flex;
     align-items: center;
- height:70vh;
+    height:70vh;
+    flex-direction: column;
+    margin-top:300px;
 }
 
     .result {
-        display: flex;
         width: 150px;
         height: 150px;
         margin: 0;
@@ -54,4 +55,11 @@ div#container {
         display: flex;
         justify-content: center;
         align-items: center;
+      }
+
+      @media only screen and (min-width: 960px)  {
+         div#container{
+            flex-direction: row;
+            margin-top: unset;
+         }
       }

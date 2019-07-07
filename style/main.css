@@ -22,12 +22,14 @@ div#container {
       -ms-flex-align: center;
           align-items: center;
   height: 70vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 300px;
 }
 
 .result {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 150px;
   height: 150px;
   margin: 0;
@@ -39,6 +41,8 @@ div#container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -77,5 +81,15 @@ div#container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media only screen and (min-width: 960px) {
+  div#container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: unset;
+  }
 }
 /*# sourceMappingURL=main.css.map */
