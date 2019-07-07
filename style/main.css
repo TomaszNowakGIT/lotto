@@ -72,7 +72,7 @@ div#container {
 .title {
   font-family: 'Anton', sans-serif;
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,6 +91,9 @@ div#container {
         -ms-flex-direction: row;
             flex-direction: row;
     margin-top: unset;
+  }
+  .title {
+    font-size: 60px;
   }
 }
 /*# sourceMappingURL=main.css.map */

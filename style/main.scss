@@ -52,7 +52,7 @@ div#container {
       .title{
         font-family: 'Anton', sans-serif;
         text-transform: uppercase;
-        font-size: 60px;
+        font-size: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -62,5 +62,8 @@ div#container {
          div#container{
             flex-direction: row;
             margin-top: unset;
+         }
+         .title{
+             font-size:60px;
          }
       }
