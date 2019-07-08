@@ -13,9 +13,9 @@ div#container {
     justify-content: center;
     display: flex;
     align-items: center;
-    height:70vh;
+    height:auto;
     flex-direction: column;
-    margin-top:250px;
+    margin-top:20px;
 }
 
     .result {
@@ -62,8 +62,10 @@ div#container {
          div#container{
             flex-direction: row;
             margin-top: unset;
+            height:70vh;
          }
          .title{
              font-size:40px;
          }
+
       }
